@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Fraunces, Noto_Sans_Arabic, Plus_Jakarta_Sans } from "next/font/google";
 
-import { SiteHeaderHost } from "@/components/site-header-host";
 import "./globals.css";
+import { SiteHeaderHost } from "@/components/site-header-host";
 
 const plusJakarta = Plus_Jakarta_Sans({
   variable: "--font-plus-jakarta",
