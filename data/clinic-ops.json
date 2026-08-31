@@ -1,0 +1,84 @@
+{
+  "doctor": {
+    "name": "Dr. Zulaikha",
+    "nameKurdish": "د. زولەیخا",
+    "title": "Principal Dentist",
+    "specialty": "Restorative & Cosmetic Dentistry",
+    "license": "DDS-4418 · Kurdistan Medical Council",
+    "clinic": "Vital Dental Clinic",
+    "email": "maya.chen@luminadental.com",
+    "hours": "Sat–Thu · 09:00–17:00",
+    "chairs": 3
+  },
+  "targets": {
+    "dailyVisits": 8,
+    "dailyRevenue": 2400,
+    "weeklyVisits": 36,
+    "monthlyVisits": 150
+  },
+  "appointments": [
+    {
+      "time": "09:00",
+      "patientId": "LD-10013",
+      "name": "احمد محمد",
+      "procedure": "Periodontal maintenance",
+      "chair": "Chair 1",
+      "status": "completed"
+    },
+    {
+      "time": "10:15",
+      "patientId": "LD-10021",
+      "name": "سارا عەلی",
+      "procedure": "Aligner review · tray 19",
+      "chair": "Chair 2",
+      "status": "in-chair"
+    },
+    {
+      "time": "11:00",
+      "patientId": null,
+      "name": "محەمەد ڕەشید",
+      "procedure": "New patient exam",
+      "chair": "Chair 1",
+      "status": "waiting"
+    },
+    {
+      "time": "11:45",
+      "patientId": null,
+      "name": "لەیلا حەسەن",
+      "procedure": "Adult prophylaxis",
+      "chair": "Chair 3",
+      "status": "waiting"
+    },
+    {
+      "time": "13:30",
+      "patientId": "LD-10012",
+      "name": "Jordan Hale",
+      "procedure": "Endodontic consult · UR6",
+      "chair": "Chair 1",
+      "status": "booked"
+    },
+    {
+      "time": "15:00",
+      "patientId": "LD-10041",
+      "name": "Noah Patel",
+      "procedure": "Onlay review",
+      "chair": "Chair 2",
+      "status": "booked"
+    },
+    {
+      "time": "16:15",
+      "patientId": "LD-10062",
+      "name": "Leila Rahman",
+      "procedure": "Whitening shade check",
+      "chair": "Chair 3",
+      "status": "booked"
+    }
+  ],
+  "queue": [
+    { "number": 12, "name": "احمد محمد", "chair": "Chair 1", "state": "serving" },
+    { "number": 13, "name": "سارا عەلی", "chair": "Chair 2", "state": "next" },
+    { "number": 14, "name": "محەمەد ڕەشید", "chair": "Chair 1", "state": "waiting" },
+    { "number": 15, "name": "لەیلا حەسەن", "chair": "Chair 3", "state": "waiting" },
+    { "number": 16, "name": "یوسف کەریم", "chair": "Chair 2", "state": "waiting" }
+  ]
+}

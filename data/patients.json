@@ -1,0 +1,945 @@
+[
+  {
+    "id": "LD-10074",
+    "name": "JOVIN",
+    "dateOfBirth": "1961-08-29",
+    "sex": "Unspecified",
+    "phone": "7508490207",
+    "email": "chart.ld-10074@luminadental.com",
+    "allergies": [
+      "None recorded"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2026-08-29",
+        "title": "New patient registration",
+        "note": "DRYERTYE",
+        "clinician": "Dr. Maya Chen"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "DRYERTYE",
+        "status": "Active",
+        "diagnosedAt": "2026-08-29",
+        "notes": "Recorded at registration."
+      }
+    ],
+    "visitDate": "2026-08-29",
+    "price": "10.000",
+    "treatmentType": "Composite — Class II",
+    "complaint": "DRYERTYE",
+    "chartedTeeth": [
+      11
+    ],
+    "createdAt": "2026-08-29T20:00:52.013Z",
+    "updatedAt": "2026-08-29T20:00:52.013Z",
+    "treatments": [
+      {
+        "date": "2026-08-29",
+        "procedure": "Composite — Class II",
+        "tooth": "(11)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Quoted fee: 10.000. Marked at registration for pain, decay, or required treatment."
+      }
+    ]
+  },
+  {
+    "id": "LD-10073",
+    "name": "jovin",
+    "dateOfBirth": "1992-08-29",
+    "sex": "Unspecified",
+    "phone": "7508490207",
+    "email": "chart.ld-10073@luminadental.com",
+    "allergies": [
+      "None recorded"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2026-08-29",
+        "title": "New patient registration",
+        "note": "qequehqeuieguiq",
+        "clinician": "Dr. Maya Chen"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "qequehqeuieguiq",
+        "status": "Active",
+        "diagnosedAt": "2026-08-29",
+        "notes": "Recorded at registration."
+      }
+    ],
+    "visitDate": "2026-08-29",
+    "price": "10.000",
+    "treatmentType": "Composite — Class I",
+    "complaint": "qequehqeuieguiq",
+    "chartedTeeth": [],
+    "createdAt": "2026-08-29T20:00:11.754Z",
+    "updatedAt": "2026-08-29T20:00:11.754Z",
+    "treatments": [
+      {
+        "date": "2026-08-29",
+        "procedure": "Composite — Class I",
+        "tooth": "—",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Quoted fee: 10.000. Recorded at registration."
+      }
+    ]
+  },
+  {
+    "id": "LD-10012",
+    "name": "JOVA Hasan",
+    "dateOfBirth": "1989-08-29",
+    "sex": "Female",
+    "phone": "7508490207",
+    "email": "jordan.hale@email.com",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2022-03-11",
+        "title": "New patient exam",
+        "note": "Full-mouth series and periodontal charting. Mild gingivitis on lower anteriors. Oral hygiene instruction given.",
+        "clinician": "Dr. Maya Chen"
+      },
+      {
+        "date": "2023-09-02",
+        "title": "Recall visit",
+        "note": "Probing depths stable. Patient reports cold sensitivity on UR first molar after a recent restoration.",
+        "clinician": "Dr. Maya Chen"
+      },
+      {
+        "date": "2025-01-18",
+        "title": "Emergency visit",
+        "note": "Acute pulpitis UR6 after fractured amalgam. Temporary sedative filling placed; root canal planned.",
+        "clinician": "Dr. Omar Khalil"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Chronic gingivitis",
+        "status": "Managed",
+        "diagnosedAt": "2022-03-11",
+        "notes": "Responding to 6-month hygiene recalls."
+      },
+      {
+        "name": "Irreversible pulpitis (UR6)",
+        "status": "Active",
+        "diagnosedAt": "2025-01-18",
+        "notes": "Awaiting endodontic treatment."
+      }
+    ],
+    "treatments": [
+      {
+        "date": "2022-03-11",
+        "procedure": "Adult prophylaxis",
+        "tooth": "Full mouth",
+        "clinician": "Elena Ruiz, RDH",
+        "notes": "Light calculus, stain removal."
+      },
+      {
+        "date": "2023-09-02",
+        "procedure": "Composite restoration",
+        "tooth": "UR6 (16)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "MO amalgam replaced with composite."
+      },
+      {
+        "date": "2025-01-18",
+        "procedure": "Sedative dressing",
+        "tooth": "UR6 (16)",
+        "clinician": "Dr. Omar Khalil",
+        "notes": "IRM placed after caries excavation."
+      }
+    ],
+    "chartedTeeth": [
+      13,
+      11,
+      21
+    ],
+    "visitDate": "2022-03-11",
+    "price": "10.000",
+    "treatmentType": "Sedative dressing",
+    "complaint": "Full-mouth series and periodontal charting. Mild gingivitis on lower anteriors. Oral hygiene instruction given.",
+    "createdAt": "2026-08-29T19:25:44.462Z",
+    "updatedAt": "2026-08-29T19:25:44.462Z"
+  },
+  {
+    "id": "LD-10013",
+    "name": "احمد محمد",
+    "dateOfBirth": "1979-08-29",
+    "sex": "Male",
+    "phone": "(555) 014-2800",
+    "email": "ahmed.m@email.com",
+    "allergies": [
+      "Latex",
+      "Ibuprofen"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2021-06-20",
+        "title": "Medical history update",
+        "note": "Type 2 diabetes, HbA1c 7.1%. No bleeding disorders. Smokes 4 cigarettes/day.",
+        "clinician": "Dr. Maya Chen"
+      },
+      {
+        "date": "2024-02-14",
+        "title": "Periodontal re-evaluation",
+        "note": "Localized 5–6 mm pockets on lower molars. Referred for scaling and root planing.",
+        "clinician": "Dr. Priya Nair"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Type 2 diabetes mellitus",
+        "status": "Chronic",
+        "diagnosedAt": "2019-08-01",
+        "notes": "Controlled with metformin. Higher caries and perio risk."
+      },
+      {
+        "name": "Localized periodontitis (stage II)",
+        "status": "Active",
+        "diagnosedAt": "2024-02-14",
+        "notes": "Lower first molars. Maintenance every 3 months."
+      }
+    ],
+    "treatments": [
+      {
+        "date": "2024-03-04",
+        "procedure": "Scaling and root planing",
+        "tooth": "LL / LR quadrants",
+        "clinician": "Dr. Priya Nair",
+        "notes": "Local anaesthetic used. Chlorhexidine rinse prescribed."
+      },
+      {
+        "date": "2024-08-19",
+        "procedure": "Porcelain crown",
+        "tooth": "LL6 (36)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Zirconia crown after RCT by outside specialist."
+      }
+    ],
+    "chartedTeeth": [],
+    "visitDate": "2021-06-20",
+    "price": "100000",
+    "treatmentType": "Porcelain crown",
+    "complaint": "Type 2 diabetes, HbA1c 7.1%. No bleeding disorders. Smokes 4 cigarettes/day."
+  },
+  {
+    "id": "LD-10021",
+    "name": "سارا عەلی",
+    "dateOfBirth": "1996-07-22",
+    "sex": "Female",
+    "phone": "(555) 014-3341",
+    "email": "sara.ali@email.com",
+    "allergies": [
+      "None recorded"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2023-05-09",
+        "title": "Orthodontic consult",
+        "note": "Class II crowding, requests clear aligners. Wisdom teeth partially erupted.",
+        "clinician": "Dr. Luca Rossi"
+      },
+      {
+        "date": "2025-11-02",
+        "title": "Aligner review",
+        "note": "Trays 18/26. Midline improved. Mild enamel decalcification on UL2 — fluoride varnish applied.",
+        "clinician": "Dr. Luca Rossi"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Malocclusion, Class II",
+        "status": "In treatment",
+        "diagnosedAt": "2023-05-09",
+        "notes": "Clear aligner therapy in progress."
+      },
+      {
+        "name": "Impacted third molars",
+        "status": "Observed",
+        "diagnosedAt": "2023-05-09",
+        "notes": "Asymptomatic. Review annually with panoramic."
+      }
+    ],
+    "treatments": [
+      {
+        "date": "2023-06-01",
+        "procedure": "Clear aligner records",
+        "tooth": "Full mouth",
+        "clinician": "Dr. Luca Rossi",
+        "notes": "Intraoral scan, photographs, panoramic radiograph."
+      },
+      {
+        "date": "2023-07-12",
+        "procedure": "Aligner delivery",
+        "tooth": "Full mouth",
+        "clinician": "Dr. Luca Rossi",
+        "notes": "Attachments bonded UR2, UL2, LR4, LL4."
+      },
+      {
+        "date": "2025-11-02",
+        "procedure": "Fluoride varnish",
+        "tooth": "UL2 (22)",
+        "clinician": "Elena Ruiz, RDH",
+        "notes": "White-spot lesion on facial surface."
+      }
+    ],
+    "chartedTeeth": []
+  },
+  {
+    "id": "LD-10034",
+    "name": "Maya Chen",
+    "dateOfBirth": "1954-01-29",
+    "sex": "Female",
+    "phone": "(555) 014-0902",
+    "email": "m.ortiz@email.com",
+    "allergies": [
+      "Codeine"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2020-10-08",
+        "title": "Pre-surgical review",
+        "note": "Hypertension (lisinopril). Dual antiplatelet therapy after stent 2018 — cardiology clearance on file for extractions.",
+        "clinician": "Dr. Omar Khalil"
+      },
+      {
+        "date": "2024-12-06",
+        "title": "Implant review",
+        "note": "LL posterior implant restored. No mobility, probing <4 mm. Night guard recommended.",
+        "clinician": "Dr. Priya Nair"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Hypertension",
+        "status": "Chronic",
+        "diagnosedAt": "2012-04-10",
+        "notes": "BP today typically 128/78 in chair."
+      },
+      {
+        "name": "Xerostomia",
+        "status": "Chronic",
+        "diagnosedAt": "2020-10-08",
+        "notes": "Medication-related. High-fluoride toothpaste prescribed."
+      }
+    ],
+    "treatments": [
+      {
+        "date": "2021-01-15",
+        "procedure": "Extraction",
+        "tooth": "LL6 (36)",
+        "clinician": "Dr. Omar Khalil",
+        "notes": "Atraumatic extraction, socket preservation with allograft."
+      },
+      {
+        "date": "2021-08-20",
+        "procedure": "Dental implant placement",
+        "tooth": "LL6 (36)",
+        "clinician": "Dr. Priya Nair",
+        "notes": "Nobel Biocare 4.3 × 10 mm. Primary stability 35 Ncm."
+      },
+      {
+        "date": "2022-02-11",
+        "procedure": "Implant crown",
+        "tooth": "LL6 (36)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Screw-retained zirconia crown."
+      }
+    ],
+    "chartedTeeth": []
+  },
+  {
+    "id": "LD-10041",
+    "name": "Noah Patel",
+    "dateOfBirth": "1993-02-08",
+    "sex": "Male",
+    "phone": "(555) 014-4410",
+    "email": "noah.patel@email.com",
+    "allergies": [
+      "None recorded"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2024-06-12",
+        "title": "Emergency visit",
+        "note": "Cracked UR5 after biting stone in food. No swelling. Percussion tender.",
+        "clinician": "Dr. Omar Khalil"
+      },
+      {
+        "date": "2025-03-21",
+        "title": "Review",
+        "note": "Onlay seated well. Bite comfortable. Oral hygiene excellent.",
+        "clinician": "Dr. Maya Chen"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Cracked tooth syndrome (UR5)",
+        "status": "Managed",
+        "diagnosedAt": "2024-06-12",
+        "notes": "Restored with ceramic onlay. Monitor for late pulp symptoms."
+      }
+    ],
+    "treatments": [
+      {
+        "date": "2024-06-12",
+        "procedure": "Provisional coverage",
+        "tooth": "UR5 (15)",
+        "clinician": "Dr. Omar Khalil",
+        "notes": "Band and sedative filling."
+      },
+      {
+        "date": "2024-07-03",
+        "procedure": "Ceramic onlay",
+        "tooth": "UR5 (15)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Lithium disilicate onlay, bonded."
+      }
+    ],
+    "chartedTeeth": []
+  },
+  {
+    "id": "LD-10048",
+    "name": "Emily Brooks",
+    "dateOfBirth": "2018-09-14",
+    "sex": "Female",
+    "phone": "(555) 014-4488",
+    "email": "parent.brooks@email.com",
+    "allergies": [
+      "Amoxicillin"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2025-04-02",
+        "title": "Paediatric exam",
+        "note": "First visit. Cooperative with tell-show-do. Early childhood caries on upper molars.",
+        "clinician": "Dr. Luca Rossi"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Early childhood caries",
+        "status": "Active",
+        "diagnosedAt": "2025-04-02",
+        "notes": "Dietary counselling started. Fluoride varnish every 3 months."
+      }
+    ],
+    "treatments": [
+      {
+        "date": "2025-04-02",
+        "procedure": "Fluoride varnish",
+        "tooth": "Full mouth",
+        "clinician": "Elena Ruiz, RDH",
+        "notes": "5% NaF varnish. Parent present."
+      },
+      {
+        "date": "2025-08-16",
+        "procedure": "Composite restoration",
+        "tooth": "URD (54)",
+        "clinician": "Dr. Luca Rossi",
+        "notes": "Occlusal caries, rubber dam used."
+      }
+    ],
+    "chartedTeeth": []
+  },
+  {
+    "id": "LD-10055",
+    "name": "Karzan Hassan",
+    "dateOfBirth": "1981-12-19",
+    "sex": "Male",
+    "phone": "(555) 014-5502",
+    "email": "karzan.h@email.com",
+    "allergies": [
+      "None recorded"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2023-11-08",
+        "title": "Occlusal analysis",
+        "note": "Morning jaw pain, worn canines. Sleeps with partner who reports grinding.",
+        "clinician": "Dr. Priya Nair"
+      },
+      {
+        "date": "2026-01-09",
+        "title": "Splint review",
+        "note": "Night guard worn 5 nights/week. Muscle tenderness reduced.",
+        "clinician": "Dr. Priya Nair"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Sleep bruxism",
+        "status": "Managed",
+        "diagnosedAt": "2023-11-08",
+        "notes": "Hard acrylic Michigan splint in use."
+      },
+      {
+        "name": "Attrition (canines)",
+        "status": "Observed",
+        "diagnosedAt": "2023-11-08",
+        "notes": "No restoration unless sensitivity increases."
+      }
+    ],
+    "treatments": [
+      {
+        "date": "2023-12-01",
+        "procedure": "Occlusal splint delivery",
+        "tooth": "Full mouth",
+        "clinician": "Dr. Priya Nair",
+        "notes": "Maxillary hard splint. Review in 6 weeks."
+      }
+    ],
+    "chartedTeeth": []
+  },
+  {
+    "id": "LD-10062",
+    "name": "Leila Rahman",
+    "dateOfBirth": "1997-05-30",
+    "sex": "Female",
+    "phone": "(555) 014-6262",
+    "email": "leila.r@email.com",
+    "allergies": [
+      "Nickel"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2026-02-18",
+        "title": "Cosmetic consult",
+        "note": "Requests whitening before wedding. No sensitivity history. Mild crowding UR2/UL2.",
+        "clinician": "Dr. Maya Chen"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Extrinsic staining",
+        "status": "In treatment",
+        "diagnosedAt": "2026-02-18",
+        "notes": "Take-home trays issued. Review shade in 14 days."
+      }
+    ],
+    "treatments": [
+      {
+        "date": "2026-02-18",
+        "procedure": "Whitening records",
+        "tooth": "Full mouth",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Impressions for bleaching trays. Baseline shade A3."
+      },
+      {
+        "date": "2026-03-04",
+        "procedure": "Take-home whitening",
+        "tooth": "Full mouth",
+        "clinician": "Elena Ruiz, RDH",
+        "notes": "10% carbamide peroxide, night wear."
+      }
+    ],
+    "chartedTeeth": []
+  },
+  {
+    "id": "LD-10063",
+    "name": "Jotyar Hasan",
+    "dateOfBirth": "1992-08-28",
+    "sex": "Unspecified",
+    "phone": "7508490207",
+    "email": "chart.ld-10063@luminadental.com",
+    "allergies": [
+      "None recorded"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2026-08-29",
+        "title": "New patient registration",
+        "note": "gssgsryr",
+        "clinician": "Dr. Maya Chen"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "gssgsryr",
+        "status": "Active",
+        "diagnosedAt": "2026-08-29",
+        "notes": "Recorded at registration."
+      }
+    ],
+    "treatments": [],
+    "chartedTeeth": []
+  },
+  {
+    "id": "LD-10064",
+    "name": "Falah Hasan Ahmed",
+    "dateOfBirth": "1981-08-28",
+    "sex": "Unspecified",
+    "phone": "7508490207",
+    "email": "chart.ld-10064@luminadental.com",
+    "allergies": [
+      "None recorded"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2026-09-02",
+        "title": "New patient registration",
+        "note": "trrts",
+        "clinician": "Dr. Maya Chen"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "trrts",
+        "status": "Active",
+        "diagnosedAt": "2026-09-02",
+        "notes": "Recorded at registration."
+      }
+    ],
+    "treatments": [],
+    "chartedTeeth": []
+  },
+  {
+    "id": "LD-10065",
+    "name": "Leila Karim",
+    "dateOfBirth": "1997-08-28",
+    "sex": "Unspecified",
+    "phone": "(555) 014-3391",
+    "email": "chart.ld-10065@luminadental.com",
+    "allergies": [
+      "None recorded"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2026-08-28",
+        "title": "New patient registration",
+        "note": "Upper left molar pain after biting",
+        "clinician": "Dr. Maya Chen"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Upper left molar pain after biting",
+        "status": "Active",
+        "diagnosedAt": "2026-08-28",
+        "notes": "Recorded at registration."
+      }
+    ],
+    "treatments": [],
+    "chartedTeeth": []
+  },
+  {
+    "id": "LD-10066",
+    "name": "Rojan Hassan",
+    "dateOfBirth": "1985-08-28",
+    "sex": "Unspecified",
+    "phone": "(555) 014-4488",
+    "email": "chart.ld-10066@luminadental.com",
+    "allergies": [
+      "None recorded"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2026-08-28",
+        "title": "New patient registration",
+        "note": "Cracked lower molar with chewing pain",
+        "clinician": "Dr. Maya Chen"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Cracked lower molar with chewing pain",
+        "status": "Active",
+        "diagnosedAt": "2026-08-28",
+        "notes": "Recorded at registration."
+      }
+    ],
+    "treatments": [],
+    "chartedTeeth": []
+  },
+  {
+    "id": "LD-10067",
+    "name": "Dara Salih",
+    "dateOfBirth": "1990-08-28",
+    "sex": "Unspecified",
+    "phone": "(555) 014-7720",
+    "email": "chart.ld-10067@luminadental.com",
+    "allergies": [
+      "None recorded"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2026-08-28",
+        "title": "New patient registration",
+        "note": "Pain on biting, upper first molars",
+        "clinician": "Dr. Maya Chen"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Pain on biting, upper first molars",
+        "status": "Active",
+        "diagnosedAt": "2026-08-28",
+        "notes": "Recorded at registration."
+      }
+    ],
+    "chartedTeeth": [
+      16,
+      26,
+      46
+    ],
+    "treatments": [
+      {
+        "date": "2026-08-28",
+        "procedure": "Clinical charting",
+        "tooth": "(16)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Marked at registration for pain, decay, or required treatment."
+      },
+      {
+        "date": "2026-08-28",
+        "procedure": "Clinical charting",
+        "tooth": "(26)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Marked at registration for pain, decay, or required treatment."
+      },
+      {
+        "date": "2026-08-28",
+        "procedure": "Clinical charting",
+        "tooth": "(46)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Marked at registration for pain, decay, or required treatment."
+      }
+    ]
+  },
+  {
+    "id": "LD-10068",
+    "name": "Narin Aziz",
+    "dateOfBirth": "1985-08-28",
+    "sex": "Unspecified",
+    "phone": "(555) 014-3391",
+    "email": "chart.ld-10068@luminadental.com",
+    "allergies": [
+      "None recorded"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2026-08-28",
+        "title": "New patient registration",
+        "note": "Pain on upper right first molar and lower right first molar.",
+        "clinician": "Dr. Maya Chen"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Pain on upper right first molar and lower right first molar.",
+        "status": "Active",
+        "diagnosedAt": "2026-08-28",
+        "notes": "Recorded at registration."
+      }
+    ],
+    "chartedTeeth": [
+      11,
+      16,
+      46
+    ],
+    "treatments": [
+      {
+        "date": "2026-08-28",
+        "procedure": "Clinical charting",
+        "tooth": "(11)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Marked at registration for pain, decay, or required treatment."
+      },
+      {
+        "date": "2026-08-28",
+        "procedure": "Clinical charting",
+        "tooth": "(16)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Marked at registration for pain, decay, or required treatment."
+      },
+      {
+        "date": "2026-08-28",
+        "procedure": "Clinical charting",
+        "tooth": "(46)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Marked at registration for pain, decay, or required treatment."
+      }
+    ]
+  },
+  {
+    "id": "LD-10069",
+    "name": "Barzan Osman",
+    "dateOfBirth": "1997-08-28",
+    "sex": "Unspecified",
+    "phone": "(555) 014-4410",
+    "email": "chart.ld-10069@luminadental.com",
+    "allergies": [
+      "None recorded"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2026-08-28",
+        "title": "New patient registration",
+        "note": "Pain on teeth 11, 16, and 46.",
+        "clinician": "Dr. Maya Chen"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "Pain on teeth 11, 16, and 46.",
+        "status": "Active",
+        "diagnosedAt": "2026-08-28",
+        "notes": "Recorded at registration."
+      }
+    ],
+    "chartedTeeth": [
+      11,
+      16,
+      46
+    ],
+    "treatments": [
+      {
+        "date": "2026-08-28",
+        "procedure": "Clinical charting",
+        "tooth": "(11)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Marked at registration for pain, decay, or required treatment."
+      },
+      {
+        "date": "2026-08-28",
+        "procedure": "Clinical charting",
+        "tooth": "(16)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Marked at registration for pain, decay, or required treatment."
+      },
+      {
+        "date": "2026-08-28",
+        "procedure": "Clinical charting",
+        "tooth": "(46)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Marked at registration for pain, decay, or required treatment."
+      }
+    ]
+  },
+  {
+    "id": "LD-10070",
+    "name": "Zachary Mudrichaz",
+    "dateOfBirth": "1993-08-28",
+    "sex": "Unspecified",
+    "phone": "7508490207",
+    "email": "chart.ld-10070@luminadental.com",
+    "allergies": [
+      "None recorded"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2026-08-06",
+        "title": "New patient registration",
+        "note": "oijijoi",
+        "clinician": "Dr. Maya Chen"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "oijijoi",
+        "status": "Active",
+        "diagnosedAt": "2026-08-06",
+        "notes": "Recorded at registration."
+      }
+    ],
+    "chartedTeeth": [
+      36
+    ],
+    "treatments": [
+      {
+        "date": "2026-08-06",
+        "procedure": "Clinical charting",
+        "tooth": "(36)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Marked at registration for pain, decay, or required treatment."
+      }
+    ]
+  },
+  {
+    "id": "LD-10071",
+    "name": "Jotyar Hasan1111111",
+    "dateOfBirth": "1982-08-29",
+    "sex": "Unspecified",
+    "phone": "7508490207",
+    "email": "chart.ld-10071@luminadental.com",
+    "allergies": [
+      "None recorded"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2026-08-29",
+        "title": "New patient registration",
+        "note": "rtwtwt",
+        "clinician": "Dr. Maya Chen"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "rtwtwt",
+        "status": "Active",
+        "diagnosedAt": "2026-08-29",
+        "notes": "Recorded at registration."
+      }
+    ],
+    "chartedTeeth": [
+      15
+    ],
+    "treatments": [
+      {
+        "date": "2026-08-29",
+        "procedure": "Crown — Zircon",
+        "tooth": "(15)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Quoted fee: 10000. Marked at registration for pain, decay, or required treatment."
+      }
+    ]
+  },
+  {
+    "id": "LD-10072",
+    "name": "Jova hasan",
+    "dateOfBirth": "1948-08-29",
+    "sex": "Unspecified",
+    "phone": "7508490207",
+    "email": "chart.ld-10072@luminadental.com",
+    "allergies": [
+      "None recorded"
+    ],
+    "medicalHistory": [
+      {
+        "date": "2026-08-29",
+        "title": "New patient registration",
+        "note": "dpojgpejrpejrepohe",
+        "clinician": "Dr. Maya Chen"
+      }
+    ],
+    "diseases": [
+      {
+        "name": "dpojgpejrpejrepohe",
+        "status": "Active",
+        "diagnosedAt": "2026-08-29",
+        "notes": "Recorded at registration."
+      }
+    ],
+    "visitDate": "2026-08-29",
+    "price": "10.000",
+    "treatmentType": "Composite — Class IV",
+    "complaint": "dpojgpejrpejrepohe",
+    "chartedTeeth": [
+      44
+    ],
+    "treatments": [
+      {
+        "date": "2026-08-29",
+        "procedure": "Composite — Class IV",
+        "tooth": "(13)",
+        "clinician": "Dr. Maya Chen",
+        "notes": "Quoted fee: 10.000. Marked at registration for pain, decay, or required treatment."
+      }
+    ]
+  }
+]

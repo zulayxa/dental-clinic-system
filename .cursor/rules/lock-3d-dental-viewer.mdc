@@ -1,0 +1,40 @@
+---
+description: Never edit the locked 3D dental viewer, canvas, camera, or jaw rendering when changing other UI
+alwaysApply: true
+---
+
+# LOCKED: 3D dental viewer
+
+The register-page 3D jaw viewer is **permanently locked**. Form fields, dropdowns, headers, footers, and layout tweaks must never change it.
+
+## Do not modify these files
+
+- `components/dental-jaw-3d.tsx`
+- `components/dental-chart-scene.tsx`
+- `components/interactive-dental-chart.tsx`
+- `lib/dental-anatomy.ts`
+- `lib/dental-chart.ts`
+- `public/models/**`
+
+Also leave the register 3D column untouched: the `h-[calc(100svh-8.5rem)] min-h-[32rem]` wrapper, `DentalJaw3D fill`, and the dark `/models` loading placeholder.
+
+## Do not change
+
+- Camera `{ position: [0, 0.22, 7.5], fov: 30 }`
+- OrbitControls, lights/Environment intensity, gums, GLB teeth, flip/mirror/Spee/layout math
+- Canvas transparency: WebGL `alpha: true`, clear alpha `0`, `scene.background = null`, no `<color attach="background">`, no ContactShadows floor, no local navy fill on the canvas. The static page background must show through. Do not restore an opaque `#01113a` scene/canvas background.
+
+## Examples
+
+```tsx
+// ❌ BAD — editing the form is not a reason to touch the viewer
+<Canvas camera={{ position: [0, 1, 5], fov: 45 }}>
+
+// ✅ GOOD — change only form UI; keep DentalJaw3D as-is
+<TreatmentTypeSelect className={fieldClassName} />
+<div className="h-[calc(100svh-8.5rem)] min-h-[32rem] min-w-0">
+  <DentalJaw3D fill selected={chartedTeeth} onChange={setChartedTeeth} />
+</div>
+```
+
+If the canvas looks blank, fix WebGL **inside** `dental-jaw-3d.tsx` only (size, context restore, keep it transparent). Do not “fix” it by painting a local canvas color, editing the form, `SiteHeader`, or camera/model code.
