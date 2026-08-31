@@ -244,7 +244,7 @@ function resolveUpperLowerPose(
   const rightTooth = pair ? teeth.find((tooth) => tooth.fdi === pair[0]) : undefined;
   const rightGeometry = pair ? geometries.get(pair[0]) : undefined;
   const scale =
-    rightTooth && rightGeometry
+    pair && rightTooth && rightGeometry
       ? toothScale(pair[0], rightGeometry, rightTooth.slot)
       : toothScale(fdi, geometry, slot);
   const pose =
