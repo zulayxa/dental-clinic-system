@@ -241,12 +241,24 @@ function resolveUpperLowerPose(
   const upperPair = UPPER_RIGHT_TO_LEFT.find(([, left]) => left === fdi);
   const lowerPair = LOWER_RIGHT_TO_LEFT.find(([, left]) => left === fdi);
   const pair = upperPair ?? lowerPair;
-  const rightFdi = pair?.[0];
-  const rightTooth =
-    rightFdi == null ? undefined : teeth.find((tooth) => tooth.fdi === rightFdi);
-  const rightGeometry = rightFdi == null ? undefined : geometries.get(rightFdi);
+  if (!pair) {
+    return {
+      fdi,
+      geometry,
+      scale: toothScale(fdi, geometry, slot),
+      x,
+      y,
+      z,
+      yaw,
+      labialTilt,
+      spee: layout.spee,
+    };
+  }
+  const rightFdi = (pair as NonNullable<typeof pair>)[0];
+  const rightTooth = teeth.find((tooth) => tooth.fdi === rightFdi);
+  const rightGeometry = geometries.get(rightFdi);
   const scale =
-    rightFdi != null && rightTooth && rightGeometry
+    rightTooth && rightGeometry
       ? toothScale(rightFdi, rightGeometry, rightTooth.slot)
       : toothScale(fdi, geometry, slot);
   const pose =
