@@ -240,10 +240,8 @@ function resolveUpperLowerPose(
   const { x, y, z, yaw, labialTilt, slot } = layout;
   const upperPair = UPPER_RIGHT_TO_LEFT.find(([, left]) => left === fdi);
   const lowerPair = LOWER_RIGHT_TO_LEFT.find(([, left]) => left === fdi);
-  const pair = upperPair ?? lowerPair;
-  const safePair = pair ?? ([null, null] as [number | null, number | null]);
-  const rightFdi = safePair[0];
-  if (rightFdi == null) {
+  const rightFdi = upperPair?.[0] ?? lowerPair?.[0];
+  if (rightFdi === undefined) {
     return {
       fdi,
       geometry,
