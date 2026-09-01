@@ -241,7 +241,9 @@ function resolveUpperLowerPose(
   const upperPair = UPPER_RIGHT_TO_LEFT.find(([, left]) => left === fdi);
   const lowerPair = LOWER_RIGHT_TO_LEFT.find(([, left]) => left === fdi);
   const pair = upperPair ?? lowerPair;
-  if (!pair) {
+  const safePair = pair ?? ([null, null] as [number | null, number | null]);
+  const rightFdi = safePair[0];
+  if (rightFdi == null) {
     return {
       fdi,
       geometry,
@@ -254,7 +256,6 @@ function resolveUpperLowerPose(
       spee: layout.spee,
     };
   }
-  const rightFdi = (pair as NonNullable<typeof pair>)[0];
   const rightTooth = teeth.find((tooth) => tooth.fdi === rightFdi);
   const rightGeometry = geometries.get(rightFdi);
   const scale =
